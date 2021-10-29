@@ -25,7 +25,7 @@ public class MemberDao {
     }
 
     //会員登録処理
-    public int setAll(MemberEntity me) {
+    public int setMember(MemberEntity me) {
 
         int r = 0;
         PreparedStatement ps = null;

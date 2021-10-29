@@ -8,21 +8,19 @@ package com.mycompany.subject.dto;
  *
  * @author toisu
  */
-public class MemberDto {
+public class MemberDetailDto {
 
     private String id;
     private String name;
     private String sex;
-    private String year;
-    private String month;
-    private String day;
     private String date_of_birth;
     private String postal_code;
     private String address;
     private String telephone_no;
-    private String credit_no;
-    private String creation_date_time;
-    
+    private String buy_date_time;
+    private String goods;
+    private String payment;
+
     public String getId() {
         return id;
     }
@@ -45,30 +43,6 @@ public class MemberDto {
 
     public void setSex(String sex) {
         this.sex = sex;
-    }
-
-    public String getYear() {
-        return year;
-    }
-
-    public void setYear(String year) {
-        this.year = year;
-    }
-
-    public String getMonth() {
-        return month;
-    }
-
-    public void setMonth(String month) {
-        this.month = month;
-    }
-
-    public String getDay() {
-        return day;
-    }
-
-    public void setDay(String day) {
-        this.day = day;
     }
 
     public String getDate_of_birth() {
@@ -103,20 +77,28 @@ public class MemberDto {
         this.telephone_no = telephone_no;
     }
 
-    public String getCredit_no() {
-        return credit_no;
+    public String getBuy_date_time() {
+        return buy_date_time;
     }
 
-    public void setCredit_no(String credit_no) {
-        this.credit_no = credit_no;
+    public void setBuy_date_time(String buy_date_time) {
+        this.buy_date_time = buy_date_time;
     }
 
-    public String getCreation_date_time() {
-        return creation_date_time;
+    public String getGoods() {
+        return goods;
     }
 
-    public void setCreation_date_time(String creation_date_time) {
-        this.creation_date_time = creation_date_time;
+    public void setGoods(String goods) {
+        this.goods = goods;
+    }
+
+    public String getPayment() {
+        return payment;
+    }
+
+    public void setPayment(String payment) {
+        this.payment = payment;
     }
 
 }
